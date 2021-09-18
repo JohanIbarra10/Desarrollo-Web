@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Practicos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <form class="formulario" action="#" method="">
+            <legend>Contactenos</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="campo">
+                    <label>Apellidos</label>
+
+                    <input type="text" name="nombre" placeholder="Apellidos" required>
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="campo">
+                    <label>Correo electronico</label>
+
+                    <input type="mail" name="correo" placeholder="correo electronico">
+                </div>
+
+                <div class="campo">
+                    <label>Genero</label>
+                    <select name="Genero" id="Genero">
+                        <option value="Hombre">M</option>
+                        <option value="Mujer">F</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Edad</label>
+                    <input type="number" name="edad" placeholder="edad">
+                </div>
+
+                <div class="campo">
+                    <label>Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="pais">Colombia</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Ciudad</label>
+                    <select name="ciudad" id="ciudad">
+                        <option value="ciudad1">Bogotá</option>
+                        <option value="ciudad2">Medellin</option>
+                        <option value="ciudad3">Cali</option>
+                        <option value="ciudad3">Barranquilla</option>
+                        <option value="ciudad3">Cartagena</option>
+                        <option value="ciudad3">Pereira</option>
+                    </select>
+                </div>
+
+                <div>
+                    <br>
+                    <input type="checkbox" id="politicas" name="politicas" value="politicas">
+                    <label for="politicas"> Acepto las politicas y terminos de privacidad</label><br>
+                </div>
+
+            </div>
+            <br>
+            <div class="enviar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>

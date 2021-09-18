@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Practicos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>Hoja de Vida</h2>
+        <form class="formulario" action="#" method="">
+            <div align="center"><img src="img/descarga.jpg" width="150" height="150"></div><br>
+            <h2>Datos personales</h2><br>
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                    <div class="campo">
+                        <label>Apellidos</label>
+                        <input type="text" name="Apellido" placeholder="Apellidos" required>
+                    </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="campo">
+                    <label>Correo electronico</label>
+                    <input type="mail" name="correo" placeholder="Mail">
+                </div>
+                <div class="campo">
+                    <label>Ciudad de nacimiento</label>
+                    <select name="ciudad" id="ciudad">
+                        <option value="volvo">Bogotá</option>
+                        <option value="saab">Medellin</option>
+                        <option value="opel">Cali</option>
+                    </select>
+                </div>
+                <div class="campo">
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha">
+                </div>
+        </form>
+        <div>
+        <h2>Formación académica</h2><br>
+        <form class="formulario" action="#" method="">
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Formacion Basica</label>
+                    <input type="text" name="Colegio" placeholder="Nombre Colegio" required>
+                </div>
+                <div class="campo">
+                    <label for="fecha">Fecha de terminación:</label>
+                    <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div class="campo">
+                        <label>Formacion Universitaria</label>
+                        <input type="text" name="Universidad" placeholder="Nombre Universidad" required>
+                    </div>
+                    <div class="campo">
+                        <label for="fecha">Fecha de terminación:</label>
+                        <input type="date" id="fecha" name="fecha">
+                        </div>
+        </form>
+        </div>
+
+        <div>
+            <h2>Experiencia laboral</h2><br>
+            <form class="formulario" action="#" method="">
+                <div class="contenedor-campos">
+                    <div class="campo">
+                    <textarea name="textarea" rows="10" cols="80">Escribe tu experiencia Laboral</textarea>
+                    </div>
+            </form>
+            </div>
+
+            <div>
+            <h2>Redes Sociales</h2><br>
+            <div align="center"><a href="#" class="fa fa-facebook"> facebook_j.ibarra</a><br></div>
+            <div align="center"><a href="#" class="fa fa-twitter"> Twitter @johanibarra</a><br></div>
+            </form>
+            </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
