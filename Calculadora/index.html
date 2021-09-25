@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h2>Calculadora</h2>
+    <div class="container">
+    <div class="calculadora">
+        <div class="display">
+            <div id="valor-anterior"></div>
+            <div id="valor-actual"></div>
+        </div>
+            <td><button value="7" id="siete" onclick="getData(this.id)">7</button></td>
+            <td><button value="8" id="ocho" onclick="getData(this.id)">8</button></td>
+            <td><button value="9" id="nueve" onclick="getData(this.id)">9</button></td>
+            <td><button value="/" id="division" onclick="getOperacion(this.value)">/</button</td>
+            <td><button value="4" id="cuatro" onclick="getData(this.id)">4</button></td>
+            <td><button value="5" id="cinco" onclick="getData(this.id)">5</button></td>
+            <td><button value="6" id="seis" onclick="getData(this.id)">6</button></td>
+            <td><button value="*" id="multiplicacion" onclick="getOperacion(this.value)">*</button></td>
+            <td><button value="1" id="uno" onclick="getData(this.id)">1</button></td>
+            <td><button value="2" id="dos" onclick="getData(this.id)">2</button></td>
+            <td><button value="3" id="tres" onclick="getData(this.id)">3</button></td>
+            <td><button value="-" id="resta" onclick="getOperacion(this.value)">-</button></td>
+            <td><button value="C" id="reset" onclick="resetear()">C</button></td>
+            <td><button value="0" id="cero" onclick="getData(this.id)">0</button></td>
+            <td><button value="=" id="igual" onclick="getSolucion()">=</button></td>
+            <td><button value="+" id="suma" onclick="getOperacion(this.value)">+</button></td>
+            <td><button value="." id="punto" onclick="getData(this.id)">.</button></td>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
